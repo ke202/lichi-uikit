@@ -2100,17 +2100,12 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/chessdefi",
-            },
-        ],
+        href: "https://t.me/lichidefi",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/chess_finance",
+        href: "https://twitter.com/lichi_finance",
     },
 ];
 var MENU_HEIGHT = 64;
