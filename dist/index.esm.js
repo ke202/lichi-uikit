@@ -634,7 +634,7 @@ var ButtonMenu = function (_a) {
     })));
 };
 
-var InactiveButton = styled(Button)(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  background-color: transparent;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"], ["\n  background-color: transparent;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"])), function (_a) {
+var InactiveButton = styled(Button)(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  background-color: ;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: ;\n  }\n"], ["\n  background-color: ;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"])), function (_a) {
     var theme = _a.theme, colorKey = _a.colorKey;
     return theme.colors[colorKey];
 });
@@ -2081,18 +2081,18 @@ var links = [
             //   label: "Voting",
             //   href: "https://voting.pancakeswap.finance",
             // },
-            {
+            /* {
                 label: "Github",
                 href: "https://github.com/goosedefi/",
-            },
+            }, */
             {
                 label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                href: "https://app.gitbook.com/@smokingcucumberfinance/s/smokingcucumber/",
             },
-            {
+          /*   {
                 label: "Blog",
                 href: "https://goosefinance.medium.com/",
-            },
+            }, */
         ],
     },
 ];
@@ -2100,12 +2100,13 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/lichidefi",
+        href: "",
+        
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/lichi_finance",
+        href: "https://twitter.com/SmokingCucumber",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2685,21 +2686,21 @@ var ResetCSS = createGlobalStyle(templateObject_1$K || (templateObject_1$K = __m
 var templateObject_1$K;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#000000",
-    primaryBright: "#000000",
-    primaryDark: "#865f35",
-    secondary: "#7645D9",
-    success: "#31D0AA",
+    failure: "#e49e18",
+    primary: "#abbd4e",
+    primaryBright: "#6ca013",
+    primaryDark: "#2626c6",
+    secondary: "#6ca013",
+    success: "#70a613",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#000000", textDisabled: "#BDC2C4", textSubtle: "#000000", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#323531", backgroundDisabled: "#323531", contrast: "#323531", invertedContrast: "#1d24b1", input: "#a1b445", tertiary: "#65765f", text: "#ffffff", textDisabled: "#65765f", textSubtle: "#FFFFFF", borderColor: "#70a613", card: "#252d28", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#6ca013", background: "#323531", backgroundDisabled: "#323531", contrast: "#323531", invertedContrast: "#1d24b1", input: "#a1b445", primaryDark: "#0098A1", tertiary: "#65765f", text: "#FFFFFF", textDisabled: "#65765f", textSubtle: "#FFFFFF", borderColor: "#70a613", card: "#252d28", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
