@@ -2111,18 +2111,9 @@ var links = [
 ];
 var socials = [
     {
-    label: 'Telegram',
-    icon: 'TelegramIcon',
-	items: [
-	  {
-        label: 'English',
-        href: 'https://t.me/SmokingCucumberFinanceChat',
-      },
-      {
-        label: 'Announcement',
-        href: 'https://t.me/SmokingCucumberFinance',
-      }, 
-	 ],
+    	label: "Telegram",
+        icon: "TelegramIcon",
+        href: "https://t.me/SmokingCucumberFinanceChat",
     },
     {
         label: "Twitter",
